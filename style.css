@@ -14,38 +14,47 @@
     z-index: 5;
 }
 .logoholder{
-    width: 400px;
-    height: 150;
+    width: 40%;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .logoimg{
+    position: absolute;
+    left: 40px;
     width: 150px;
     height:150px ;
     border-radius: 50%;
     background-color: aqua;
-    background-image: url("Snapchat-2034050408.jpg");
+    background-image: url("IMG_20230703_091604_762.jpg");
     background-size: cover ;
     margin-right: 10px;
 }
 #nameanchor
 {
     text-decoration: none;
-font-size: 1.4rem;
+font-size: 2rem;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 600;
 }
 
+
+
 .hapc{
     width: 400px;
+    height: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    font-size:1.4rem;
+   margin-right: 80px;
     list-style-type: none;
     font-weight: 200%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tagme{
+    margin-right: 20px;
+    font-size: 2rem;
 }
 a{
     text-decoration: none;
@@ -54,7 +63,8 @@ a{
 main{
     background-image: linear-gradient(0deg,rgba(23, 22, 22, 0.3), rgba(245,245,245,.6)),url('images.png');
     height: 716px;
-    position: relative;
+    width: 100%;
+    position: absolute;
     top: 150px;
 }
 .name
@@ -89,8 +99,9 @@ main{
     width: 250px;
     text-align: center;
     border-radius: 5%;
+    color: #fff;
 }
-.projectbutton{
+.pjbtn{
     color:#fff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 500%;
@@ -122,7 +133,7 @@ main{
     top: 320px;
     height: 80px;
     width: 50px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 60px;
     background-color: #fff;
 }
@@ -151,18 +162,20 @@ main{
 
 .mainabout
 {
-position: relative;
-top: 400px;
+position: absolute;
+top: 716px;
 height: 500px;
+width: 100%;
 background-color: #fff;
 display: flex;
+flex-direction: column;
 justify-content: center;
 align-items: center;
 }
 .inabout
 {
 position: absolute;
-top: 00px;
+top:150px;
 height: 50px;
 width: 500px;
 background-color: #fff;
@@ -185,21 +198,29 @@ font-size: 1.4rem;
     border-radius: 25px;
     background-color: #7843e9;
     position: absolute;
-    top: 2px; ;
+    top:-30px;
 }
 .pofp{
     position: relative;
     top:20px;
     text-align: center;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 1.85rem;
 
 }
+.getoknowmeskill{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;}
 
 .gettoknowme{
-    width: 700px;
+    width: 37%;
     height:200px ;
     position: absolute;
     left: 150px;
+    top: 250px;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
     
@@ -216,30 +237,31 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 #contactbtn{
     position: relative;
     top: 40px;
+    color: #fff;
 }
 .skill{
     height: 500px;
-    width: 700px;
+    width: 40%;
     display: flex;
     justify-content: center;
     align-self: center;
     position: absolute;
     right: 100px;
-    top:0px;
+    top:210px;
     flex-direction: column;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .myskills{
     font-size: 1.5rem;
-    position: relative;
+    position: absolute;
     left: -100px;
     top: 20px;
 
 }
 .skillboxholder{
-    position: relative;
+    position: absolute;
     right: 100px;
-    top: 50px;
+    top: 100px;
     height: 200px;
     width: 500;
     display: flex;
@@ -250,20 +272,115 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 }
 .skillbox{
     /* margin-right: 50px; */
-    
+    font-weight: 500;
     height: 70px;
     width: 100px;
-    background-color: #666666ae;
-    color: #2e2b2b;
+    background-color: rgba(112, 112, 112, 0.344)  ;
+    color: #000;
     /* border: 2px solid black; */
     padding-right: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500%;
     font-size: 1.01rem;
     border: none;
+    border-radius: 20%;
+
     
+}
+
+.projecth{
+width: 100%;
+height: 150vh;
+position: absolute;
+top: 1600px;
+display: flex;
+flex-direction: column;
+
+align-items: center;
+}
+.mainproject{
+    color: #000;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#prhori{
+position: absolute;
+top:8vh;
+}
+.imge{
+    background-image: url('Untitled design.png');
+    width: 900px;
+    height: 600px;
+    background-size: cover;
+}
+.prj1 ,.prj2,.prj3{
+    display: flex;
+    flex-direction: row;
+
+}
+.prjdes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hea{
+    font-weight: 900 ;
+    font-size: 2rem;
+    /* text-align: center; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.des{
+   
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.loading{
+    position: absolute;
+    top: 270px;
+    left: 500px;
+    width: 200px;
+    height: 200px;
+    border: 10px solid transparent;
+    border-radius: 50%;
+    border-top: 10px dotted #fff;
+    animation: loadere 2s linear infinite ;
+}
+
+@keyframes loadere {
+    from{rotate: 0deg;}
+    to{rotate: 360deg;}
+}
+#l1{
+    position: absolute;
+    top:880px
+}
+#l2{
+    position: absolute;
+    top: 1490px;
+}
+@keyframes twi {
+    0%{left: 7px;}
+    50%{left: 190px;}
+    100%{left: 7px;}
+
+}
+.hori::before{
+    align-self: center;
+    content: "";
+    height: 5px;
+    width: 30px;
+    position: absolute;
+    top:1px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffffff;
+    border-radius: 20%;
+    opacity: 1;
+    animation: twi 2s ease 0s infinite ;
+    -webkit-animation: twi 4s infinite;
 }
