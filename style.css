@@ -23,8 +23,8 @@
 .logoimg{
     position: absolute;
     left: 40px;
-    width: 150px;
-    height:150px ;
+    width: 100px;
+    height:100px ;
     border-radius: 50%;
     background-color: aqua;
     background-image: url("IMG_20230703_091604_762.jpg");
@@ -210,7 +210,7 @@ font-size: 1.85rem;
 }
 .getoknowmeskill{
     position: absolute;
-    top: 100px;
+    top: 140px;
     width: 100%;
     display: flex;
     justify-content: center;}
@@ -246,7 +246,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     justify-content: center;
     align-self: center;
     position: absolute;
-    right: 100px;
+    right: 90px;
     top:210px;
     flex-direction: column;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -296,7 +296,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 width: 100%;
 height: 150vh;
 position: absolute;
-top: 1600px;
+top: 1750px;
 display: flex;
 flex-direction: column;
 
@@ -313,8 +313,8 @@ top:8vh;
 }
 .imge{
     background-image: url('Untitled design.png');
-    width: 900px;
-    height: 600px;
+    width: 600px;
+    height: 400px;
     background-size: cover;
 }
 .prj1 ,.prj2,.prj3{
@@ -336,13 +336,13 @@ top:8vh;
 .des{
    
     font-size: 2rem;
-    text-align: center;
+    /* text-align: center; */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .loading{
     position: absolute;
-    top: 270px;
-    left: 500px;
+    top: 190px;
+    left: 235px;
     width: 200px;
     height: 200px;
     border: 10px solid transparent;
@@ -357,11 +357,11 @@ top:8vh;
 }
 #l1{
     position: absolute;
-    top:880px
+    top:590px
 }
 #l2{
     position: absolute;
-    top: 1490px;
+    top: 990px;
 }
 @keyframes twi {
     0%{left: 7px;}
